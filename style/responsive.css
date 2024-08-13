@@ -1,0 +1,49 @@
+@media screen and (max-width: 576px) {
+    html{
+        font-size: 10px;
+    }
+    /* ------------------------------nav-section-start----------------------------- */
+    nav{
+        max-width: 355px;
+        margin: 0 auto;
+    }
+    .menu-items{
+        display: none;
+    }
+    .menu-icon{
+        display: block;
+        font-size: 2rem;
+    }
+    /* ------------------------------hero-section-start----------------------------- */
+    .hero-section{
+        flex-direction: column;
+        gap: 10vh;
+        max-width: 355px;
+        margin: 0 auto;
+    }
+    .hero-content, .hero-img{
+        width: 100%;
+    }
+    .hero-img img{
+        width: 110%;
+        position: relative;
+        left: -60px;
+    }
+    .msg-01, .msg-02{
+        width: 120px;
+        border: 1px solid rgb(93, 93, 93);
+        /* padding: 15px 30px; */
+        background-color: rgba(31, 31, 31, 0.716);
+        border-radius: 10px;
+        position: absolute;
+        font-size: 10px;
+    }
+    .msg-01{
+        top: 90px;
+        left: 250px;
+    }
+    .msg-02{
+        top: 285px;
+        left: -18px;
+    }
+}

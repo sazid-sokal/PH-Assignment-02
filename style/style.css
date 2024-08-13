@@ -80,14 +80,15 @@ header{
     display: none;
 }
 
+
 /* ------------------------------hero-section-start----------------------------- */
 .hero-section{
+    height: 70vh;
 }
 .hero-content, .hero-img{
     width: 50%;
 }
 .hero-content{
-    padding: 50px 0;
 }
 .hero-title{
     font-size: 4.8rem;
@@ -101,7 +102,7 @@ header{
     padding-left: 150px;
 }
 .hero-img img{
-    height: 80%;
+    height: 100%;
 }
 .italic-font{
     font-family: "Dancing Script", cursive;
@@ -124,8 +125,13 @@ header{
 .msg-02{
     justify-content: space-between;
     align-items: center;
-    top: 340px;
+    top: 290px;
     left: -10px;
+}
+.msg-02 i{
+    color: var(--primary-color);
+    margin-right: 10px;
+    font-size: 2rem;
 }
 .circle{
     height: 40px;
@@ -133,9 +139,4 @@ header{
     border-radius: 50%;
     background-color: var(--primary-color);
     margin: 0 10px;
-}
-@media screen and (max-width: 576px) {
-    html{
-        font-size: 10px;
-    }
 }
