@@ -47,6 +47,9 @@
         left: 140px;
     }
     /* -----------------------------change-your-habit-start----------------------------- */
+    .habit-heading{
+        padding-top: 60px;
+    }
     .change-your-habit{
         position: relative;
         top: 385px;
