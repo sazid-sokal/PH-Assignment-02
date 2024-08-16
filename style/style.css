@@ -167,6 +167,7 @@ header{
 .habit-circles{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
 }
 .card-img img{
     border-radius: 50%;
@@ -278,7 +279,7 @@ form{
     margin: 20px 0;
 }
 .input-select{
-    width: 97%;
+    width: 98%;
     padding: 10px;
     background-color: rgb(57, 57, 57);
     border-radius: 5px;
@@ -305,12 +306,6 @@ form{
     height: 201px;
     width: 250px;
     background-image: url();
-}
-.row-1-2{
-
-}
-.row-1-3{
-
 }
 
 .training-cards{
@@ -386,8 +381,9 @@ footer{
 }
 .foot li{
     list-style: none;
-    padding: 5px 0;
+    padding: 7px 0;
     color: rgb(96, 96, 96);
+    font-size: 20px;
 }
 .foot-1{    
     width: 50%;
