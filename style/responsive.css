@@ -1,4 +1,7 @@
 @media screen and (max-width: 576px) {
+    p{
+        font-size: 1.4rem;
+    }
     html{
         font-size: 10px;
     }
