@@ -24,10 +24,10 @@
     .hero-content, .hero-img{
         width: 100%;
     }
-    .hero-img img{
-        width: 110%;
+    .hero-img{
+        width: 100%;
         position: relative;
-        left: -60px;
+        left: -120px;
     }
     .msg-01, .msg-02{
         width: 120px;
@@ -39,11 +39,99 @@
         font-size: 10px;
     }
     .msg-01{
-        top: 90px;
-        left: 250px;
+        top: 80px;
+        left: 340px;
     }
     .msg-02{
-        top: 285px;
-        left: -18px;
+        top: 250px;
+        left: 140px;
+    }
+    /* -----------------------------change-your-habit-start----------------------------- */
+    .change-your-habit{
+        position: relative;
+        top: 385px;
+        max-width: 355px;
+        margin: 0 auto;
+    }
+    .habit-circles{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    /* ------------------------------run-an-extra-mile-start----------------------------- */
+    .run-an-extra-mile{
+        max-width: 355px;
+        margin: 0 auto;
+        position: relative;
+        top: 385px;
+    }
+    .run{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .run-left,
+    .run-right{
+        width:100%;
+    }
+    .run-btn{
+        padding: 15px 20px;
+        width: 100%;
+    }
+    /* ------------------------------meet-our-team-start----------------------------- */
+    .meet-our-team{
+        max-width: 355px;
+        margin: 0 auto;
+        position: relative;
+        top: 385px;
+        
+    }
+    .profiles{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    /* ------------------------------blog-start----------------------------- */
+    .blog{
+        padding: 50px 0;
+        max-width: 355px;
+        margin: 0 auto;
+        position: relative;
+        top: 385px;
+    }
+    .blogpost{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    /* ------------------------------bmi-calculator-start----------------------------- */
+    .bmi{
+        position: relative;
+        top: 385px;
+    }
+    .bmi-heading{
+        padding: 20px;
+    }
+    .bmi-table-input{
+        padding: 50px 0;
+        max-width: 1060px;
+        margin: 0 auto;
+        gap: 80px;
+        flex-direction: column;
+        max-width: 355px;
+        margin: 0 auto;
+        padding: 20px 0;
+    }
+    .bmi-table, .bmi-input{
+        width: 100%;
+    }
+    /* ------------------------------footer-start----------------------------- */
+    footer{
+        position: relative;
+        top: 385px;
+    }
+    .foot{
+        flex-direction: column;
+    }
+    .footer-main{
+        max-width: 355px;
+        margin: 0 auto;
+    }
+    .foot-1, .foot-2, .foot-3{    
+        width: 100%;
     }
 }
